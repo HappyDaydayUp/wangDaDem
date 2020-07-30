@@ -1,0 +1,1286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11339EB32484ABB200D80219 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11339EB22484ABB200D80219 /* MyViewController.swift */; };
+		11339EB52484AC6400D80219 /* The Adventures Of Sherlock Holmes - Adventure I.epub in Resources */ = {isa = PBXBuildFile; fileRef = 11339EB42484AC6400D80219 /* The Adventures Of Sherlock Holmes - Adventure I.epub */; };
+		4E8552C024570E2100E30C20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8552BF24570E2100E30C20 /* AppDelegate.m */; };
+		4E8552C624570E2100E30C20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8552C524570E2100E30C20 /* ViewController.m */; };
+		4E8552C924570E2100E30C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8552C724570E2100E30C20 /* Main.storyboard */; };
+		4E8552CB24570E2700E30C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8552CA24570E2700E30C20 /* Assets.xcassets */; };
+		4E8552CE24570E2700E30C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8552CC24570E2700E30C20 /* LaunchScreen.storyboard */; };
+		4E8552D124570E2700E30C20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8552D024570E2700E30C20 /* main.m */; };
+		4E8552DB24570E2800E30C20 /* ZZArchitectureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8552DA24570E2800E30C20 /* ZZArchitectureDemoTests.m */; };
+		4E8552E624570E2800E30C20 /* ZZArchitectureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8552E524570E2800E30C20 /* ZZArchitectureDemoUITests.m */; };
+		4E8552F524570E5700E30C20 /* ModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8552F424570E5700E30C20 /* ModuleManager.m */; };
+		4E8552F92457C82000E30C20 /* AModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8552F82457C82000E30C20 /* AModule.m */; };
+		4E8552FB2457CB6300E30C20 /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E8552FA2457CB6300E30C20 /* ModulesRegister.plist */; };
+		4E8552FE2457CC2000E30C20 /* BModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8552FD2457CC2000E30C20 /* BModule.m */; };
+		4E8553012457CC2900E30C20 /* CModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553002457CC2900E30C20 /* CModule.m */; };
+		4E8553182459118600E30C20 /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553172459118600E30C20 /* ZZBaseViewController.m */; };
+		4E85531B2459122C00E30C20 /* ZZBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85531A2459122C00E30C20 /* ZZBaseView.m */; };
+		4E85531E2459127000E30C20 /* ZZBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85531D2459127000E30C20 /* ZZBaseViewModel.m */; };
+		4E85532F2459202800E30C20 /* LSCircleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85532E2459202800E30C20 /* LSCircleListModel.m */; };
+		4E8553322459205A00E30C20 /* LSCircleListCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553312459205A00E30C20 /* LSCircleListCollectionCell.m */; };
+		4E8553352459207B00E30C20 /* LSCircleListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553342459207B00E30C20 /* LSCircleListHeaderView.m */; };
+		4E8553382459209900E30C20 /* LSCircleListSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553372459209900E30C20 /* LSCircleListSectionHeadView.m */; };
+		4E85533B245920B800E30C20 /* LSCircleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85533A245920B800E30C20 /* LSCircleTableCell.m */; };
+		4E85533E245920DF00E30C20 /* LSCircleListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85533D245920DF00E30C20 /* LSCircleListView.m */; };
+		4E8553412459210200E30C20 /* LSCircleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553402459210200E30C20 /* LSCircleListViewController.m */; };
+		4E8553442459212900E30C20 /* LSCircleListCollectionCellVIewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553432459212900E30C20 /* LSCircleListCollectionCellVIewModel.m */; };
+		4E8553472459213F00E30C20 /* LSCircleListHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553462459213F00E30C20 /* LSCircleListHeaderViewModel.m */; };
+		4E85534A2459215B00E30C20 /* LSCircleListSectionHeadViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553492459215B00E30C20 /* LSCircleListSectionHeadViewModel.m */; };
+		4E85534D2459216F00E30C20 /* LSCircleListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85534C2459216F00E30C20 /* LSCircleListViewModel.m */; };
+		4E8553E62459A38F00E30C20 /* ZZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553E52459A38F00E30C20 /* ZZHomeViewController.m */; };
+		4E8553ED2459A3AA00E30C20 /* ZZMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553EC2459A3AA00E30C20 /* ZZMineViewController.m */; };
+		4E8553F22459A3C500E30C20 /* ZZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553F12459A3C500E30C20 /* ZZRootViewController.m */; };
+		4E8553F52459A70B00E30C20 /* ZYTeamplayerHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553F42459A70B00E30C20 /* ZYTeamplayerHeadView.m */; };
+		4E8553FB2459AE3400E30C20 /* ZZContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553FA2459AE3400E30C20 /* ZZContentViewController.m */; };
+		4E8553FE2459C48000E30C20 /* ZZHomeSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8553FD2459C48000E30C20 /* ZZHomeSecondViewController.m */; };
+		4E8554012459C7C100E30C20 /* ZZContentSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8554002459C7C100E30C20 /* ZZContentSecondViewController.m */; };
+		4E8554072463A55F00E30C20 /* ZZLoadConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8554062463A55F00E30C20 /* ZZLoadConfiguration.m */; };
+		4E85540C2464269A00E30C20 /* DisCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85540B2464269A00E30C20 /* DisCoverViewController.m */; };
+		4E8554122464287100E30C20 /* ZZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8554112464287100E30C20 /* ZZBaseTableViewController.m */; };
+		4E85541724642C4500E30C20 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85541624642C4500E30C20 /* BaseTableViewCell.m */; };
+		4E85541A2464304100E30C20 /* DiscoverViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8554192464304100E30C20 /* DiscoverViewModel.m */; };
+		4E85541D2464364400E30C20 /* DiscoverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85541C2464364400E30C20 /* DiscoverTableViewCell.m */; };
+		4E8554202464379500E30C20 /* DiscoverListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85541F2464379500E30C20 /* DiscoverListModel.m */; };
+		4E85542424643EB000E30C20 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85542324643EB000E30C20 /* BaseModel.m */; };
+		4E85542A2464F65800E30C20 /* ZZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8554292464F65800E30C20 /* ZZLoginViewController.m */; };
+		4E85542E2464F96800E30C20 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85542D2464F96800E30C20 /* LoginViewModel.m */; };
+		7751321EC33165B0283430CC /* Pods_ZZArchitectureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF407013D081263AC917E53 /* Pods_ZZArchitectureDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8552D724570E2800E30C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8552B324570E2000E30C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8552BA24570E2100E30C20;
+			remoteInfo = ZZArchitectureDemo;
+		};
+		4E8552E224570E2800E30C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8552B324570E2000E30C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8552BA24570E2100E30C20;
+			remoteInfo = ZZArchitectureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11339EB12484ABB100D80219 /* ZZArchitectureDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZZArchitectureDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		11339EB22484ABB200D80219 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		11339EB42484AC6400D80219 /* The Adventures Of Sherlock Holmes - Adventure I.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Adventures Of Sherlock Holmes - Adventure I.epub"; sourceTree = "<group>"; };
+		4E8552BB24570E2100E30C20 /* ZZArchitectureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZArchitectureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8552BE24570E2100E30C20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E8552BF24570E2100E30C20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E8552C424570E2100E30C20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E8552C524570E2100E30C20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E8552C824570E2100E30C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E8552CA24570E2700E30C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E8552CD24570E2700E30C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E8552CF24570E2700E30C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8552D024570E2700E30C20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8552D624570E2800E30C20 /* ZZArchitectureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZArchitectureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8552DA24570E2800E30C20 /* ZZArchitectureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZArchitectureDemoTests.m; sourceTree = "<group>"; };
+		4E8552DC24570E2800E30C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8552E124570E2800E30C20 /* ZZArchitectureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZArchitectureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8552E524570E2800E30C20 /* ZZArchitectureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZArchitectureDemoUITests.m; sourceTree = "<group>"; };
+		4E8552E724570E2800E30C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8552F324570E5700E30C20 /* ModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleManager.h; sourceTree = "<group>"; };
+		4E8552F424570E5700E30C20 /* ModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleManager.m; sourceTree = "<group>"; };
+		4E8552F624570F2A00E30C20 /* ModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleProtocol.h; sourceTree = "<group>"; };
+		4E8552F72457C82000E30C20 /* AModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AModule.h; sourceTree = "<group>"; };
+		4E8552F82457C82000E30C20 /* AModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AModule.m; sourceTree = "<group>"; };
+		4E8552FA2457CB6300E30C20 /* ModulesRegister.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
+		4E8552FC2457CC2000E30C20 /* BModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BModule.h; sourceTree = "<group>"; };
+		4E8552FD2457CC2000E30C20 /* BModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BModule.m; sourceTree = "<group>"; };
+		4E8552FF2457CC2900E30C20 /* CModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CModule.h; sourceTree = "<group>"; };
+		4E8553002457CC2900E30C20 /* CModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CModule.m; sourceTree = "<group>"; };
+		4E8553152459109B00E30C20 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4E8553162459118600E30C20 /* ZZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewController.h; sourceTree = "<group>"; };
+		4E8553172459118600E30C20 /* ZZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewController.m; sourceTree = "<group>"; };
+		4E8553192459122C00E30C20 /* ZZBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBaseView.h; sourceTree = "<group>"; };
+		4E85531A2459122C00E30C20 /* ZZBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBaseView.m; sourceTree = "<group>"; };
+		4E85531C2459127000E30C20 /* ZZBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewModel.h; sourceTree = "<group>"; };
+		4E85531D2459127000E30C20 /* ZZBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewModel.m; sourceTree = "<group>"; };
+		4E8553222459172B00E30C20 /* ZZConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZConfig.h; sourceTree = "<group>"; };
+		4E85532324591F9300E30C20 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		4E85532424591FA100E30C20 /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		4E85532524591FB600E30C20 /* VendorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
+		4E85532624591FBF00E30C20 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		4E85532D2459202800E30C20 /* LSCircleListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListModel.h; sourceTree = "<group>"; };
+		4E85532E2459202800E30C20 /* LSCircleListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListModel.m; sourceTree = "<group>"; };
+		4E8553302459205A00E30C20 /* LSCircleListCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListCollectionCell.h; sourceTree = "<group>"; };
+		4E8553312459205A00E30C20 /* LSCircleListCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListCollectionCell.m; sourceTree = "<group>"; };
+		4E8553332459207B00E30C20 /* LSCircleListHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListHeaderView.h; sourceTree = "<group>"; };
+		4E8553342459207B00E30C20 /* LSCircleListHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListHeaderView.m; sourceTree = "<group>"; };
+		4E8553362459209900E30C20 /* LSCircleListSectionHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListSectionHeadView.h; sourceTree = "<group>"; };
+		4E8553372459209900E30C20 /* LSCircleListSectionHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListSectionHeadView.m; sourceTree = "<group>"; };
+		4E855339245920B800E30C20 /* LSCircleTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleTableCell.h; sourceTree = "<group>"; };
+		4E85533A245920B800E30C20 /* LSCircleTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleTableCell.m; sourceTree = "<group>"; };
+		4E85533C245920DF00E30C20 /* LSCircleListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListView.h; sourceTree = "<group>"; };
+		4E85533D245920DF00E30C20 /* LSCircleListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListView.m; sourceTree = "<group>"; };
+		4E85533F2459210200E30C20 /* LSCircleListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListViewController.h; sourceTree = "<group>"; };
+		4E8553402459210200E30C20 /* LSCircleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListViewController.m; sourceTree = "<group>"; };
+		4E8553422459212900E30C20 /* LSCircleListCollectionCellVIewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListCollectionCellVIewModel.h; sourceTree = "<group>"; };
+		4E8553432459212900E30C20 /* LSCircleListCollectionCellVIewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListCollectionCellVIewModel.m; sourceTree = "<group>"; };
+		4E8553452459213F00E30C20 /* LSCircleListHeaderViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListHeaderViewModel.h; sourceTree = "<group>"; };
+		4E8553462459213F00E30C20 /* LSCircleListHeaderViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListHeaderViewModel.m; sourceTree = "<group>"; };
+		4E8553482459215B00E30C20 /* LSCircleListSectionHeadViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListSectionHeadViewModel.h; sourceTree = "<group>"; };
+		4E8553492459215B00E30C20 /* LSCircleListSectionHeadViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListSectionHeadViewModel.m; sourceTree = "<group>"; };
+		4E85534B2459216F00E30C20 /* LSCircleListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCircleListViewModel.h; sourceTree = "<group>"; };
+		4E85534C2459216F00E30C20 /* LSCircleListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCircleListViewModel.m; sourceTree = "<group>"; };
+		4E8553E42459A38F00E30C20 /* ZZHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZHomeViewController.h; sourceTree = "<group>"; };
+		4E8553E52459A38F00E30C20 /* ZZHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHomeViewController.m; sourceTree = "<group>"; };
+		4E8553EB2459A3AA00E30C20 /* ZZMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMineViewController.h; sourceTree = "<group>"; };
+		4E8553EC2459A3AA00E30C20 /* ZZMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMineViewController.m; sourceTree = "<group>"; };
+		4E8553F02459A3C500E30C20 /* ZZRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZRootViewController.h; sourceTree = "<group>"; };
+		4E8553F12459A3C500E30C20 /* ZZRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZRootViewController.m; sourceTree = "<group>"; };
+		4E8553F32459A70B00E30C20 /* ZYTeamplayerHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTeamplayerHeadView.h; sourceTree = "<group>"; };
+		4E8553F42459A70B00E30C20 /* ZYTeamplayerHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTeamplayerHeadView.m; sourceTree = "<group>"; };
+		4E8553F92459AE3400E30C20 /* ZZContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZContentViewController.h; sourceTree = "<group>"; };
+		4E8553FA2459AE3400E30C20 /* ZZContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZContentViewController.m; sourceTree = "<group>"; };
+		4E8553FC2459C48000E30C20 /* ZZHomeSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZHomeSecondViewController.h; sourceTree = "<group>"; };
+		4E8553FD2459C48000E30C20 /* ZZHomeSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHomeSecondViewController.m; sourceTree = "<group>"; };
+		4E8553FF2459C7C100E30C20 /* ZZContentSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZContentSecondViewController.h; sourceTree = "<group>"; };
+		4E8554002459C7C100E30C20 /* ZZContentSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZContentSecondViewController.m; sourceTree = "<group>"; };
+		4E8554052463A55F00E30C20 /* ZZLoadConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZLoadConfiguration.h; sourceTree = "<group>"; };
+		4E8554062463A55F00E30C20 /* ZZLoadConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZLoadConfiguration.m; sourceTree = "<group>"; };
+		4E85540A2464269A00E30C20 /* DisCoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisCoverViewController.h; sourceTree = "<group>"; };
+		4E85540B2464269A00E30C20 /* DisCoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisCoverViewController.m; sourceTree = "<group>"; };
+		4E8554102464287100E30C20 /* ZZBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBaseTableViewController.h; sourceTree = "<group>"; };
+		4E8554112464287100E30C20 /* ZZBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBaseTableViewController.m; sourceTree = "<group>"; };
+		4E85541524642C4500E30C20 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		4E85541624642C4500E30C20 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		4E8554182464304100E30C20 /* DiscoverViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewModel.h; sourceTree = "<group>"; };
+		4E8554192464304100E30C20 /* DiscoverViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewModel.m; sourceTree = "<group>"; };
+		4E85541B2464364400E30C20 /* DiscoverTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverTableViewCell.h; sourceTree = "<group>"; };
+		4E85541C2464364400E30C20 /* DiscoverTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverTableViewCell.m; sourceTree = "<group>"; };
+		4E85541E2464379500E30C20 /* DiscoverListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverListModel.h; sourceTree = "<group>"; };
+		4E85541F2464379500E30C20 /* DiscoverListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverListModel.m; sourceTree = "<group>"; };
+		4E85542224643EB000E30C20 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		4E85542324643EB000E30C20 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		4E8554282464F65800E30C20 /* ZZLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZLoginViewController.h; sourceTree = "<group>"; };
+		4E8554292464F65800E30C20 /* ZZLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZLoginViewController.m; sourceTree = "<group>"; };
+		4E85542C2464F96800E30C20 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		4E85542D2464F96800E30C20 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		7D90D5D9D95AA07EFBFD0DC8 /* Pods-ZZArchitectureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZArchitectureDemo.release.xcconfig"; path = "Target Support Files/Pods-ZZArchitectureDemo/Pods-ZZArchitectureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9BF407013D081263AC917E53 /* Pods_ZZArchitectureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZArchitectureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EE13783D69BA793B9755D4 /* Pods-ZZArchitectureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZArchitectureDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZZArchitectureDemo/Pods-ZZArchitectureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BA48E9B3FD1BBC1D39499560 /* libPods-ZZArchitectureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZArchitectureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8552B824570E2100E30C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7751321EC33165B0283430CC /* Pods_ZZArchitectureDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8552D324570E2800E30C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8552DE24570E2800E30C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8552B224570E2000E30C20 = {
+			isa = PBXGroup;
+			children = (
+				4E855302245853A600E30C20 /* Frameworks */,
+				4E8552BD24570E2100E30C20 /* ZZArchitectureDemo */,
+				4E8552D924570E2800E30C20 /* ZZArchitectureDemoTests */,
+				4E8552E424570E2800E30C20 /* ZZArchitectureDemoUITests */,
+				4E8552BC24570E2100E30C20 /* Products */,
+				94D5205F34C8C92CAA5AD90D /* Pods */,
+				62998F628D8D2C455A34AFA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8552BC24570E2100E30C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8552BB24570E2100E30C20 /* ZZArchitectureDemo.app */,
+				4E8552D624570E2800E30C20 /* ZZArchitectureDemoTests.xctest */,
+				4E8552E124570E2800E30C20 /* ZZArchitectureDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8552BD24570E2100E30C20 /* ZZArchitectureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E855303245853C200E30C20 /* AppDeleagte */,
+				4E855304245853D600E30C20 /* Class */,
+				4E855305245853E600E30C20 /* Resource */,
+				4E8552C424570E2100E30C20 /* ViewController.h */,
+				4E8552C524570E2100E30C20 /* ViewController.m */,
+				4E8552F324570E5700E30C20 /* ModuleManager.h */,
+				4E8552F424570E5700E30C20 /* ModuleManager.m */,
+				4E8552F624570F2A00E30C20 /* ModuleProtocol.h */,
+				4E8552F72457C82000E30C20 /* AModule.h */,
+				4E8552F82457C82000E30C20 /* AModule.m */,
+				4E8552FC2457CC2000E30C20 /* BModule.h */,
+				4E8552FD2457CC2000E30C20 /* BModule.m */,
+				4E8552FF2457CC2900E30C20 /* CModule.h */,
+				4E8553002457CC2900E30C20 /* CModule.m */,
+				4E8552FA2457CB6300E30C20 /* ModulesRegister.plist */,
+				4E8553152459109B00E30C20 /* PrefixHeader.pch */,
+				4E8552C724570E2100E30C20 /* Main.storyboard */,
+				4E8552CA24570E2700E30C20 /* Assets.xcassets */,
+				4E8552CC24570E2700E30C20 /* LaunchScreen.storyboard */,
+				4E8552CF24570E2700E30C20 /* Info.plist */,
+				4E8552D024570E2700E30C20 /* main.m */,
+			);
+			path = ZZArchitectureDemo;
+			sourceTree = "<group>";
+		};
+		4E8552D924570E2800E30C20 /* ZZArchitectureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8552DA24570E2800E30C20 /* ZZArchitectureDemoTests.m */,
+				4E8552DC24570E2800E30C20 /* Info.plist */,
+			);
+			path = ZZArchitectureDemoTests;
+			sourceTree = "<group>";
+		};
+		4E8552E424570E2800E30C20 /* ZZArchitectureDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8552E524570E2800E30C20 /* ZZArchitectureDemoUITests.m */,
+				4E8552E724570E2800E30C20 /* Info.plist */,
+			);
+			path = ZZArchitectureDemoUITests;
+			sourceTree = "<group>";
+		};
+		4E855302245853A600E30C20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BF407013D081263AC917E53 /* Pods_ZZArchitectureDemo.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E855303245853C200E30C20 /* AppDeleagte */ = {
+			isa = PBXGroup;
+			children = (
+				4E8552BE24570E2100E30C20 /* AppDelegate.h */,
+				4E8552BF24570E2100E30C20 /* AppDelegate.m */,
+				4E8554052463A55F00E30C20 /* ZZLoadConfiguration.h */,
+				4E8554062463A55F00E30C20 /* ZZLoadConfiguration.m */,
+			);
+			path = AppDeleagte;
+			sourceTree = "<group>";
+		};
+		4E855304245853D600E30C20 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553072458540D00E30C20 /* General */,
+				4E855310245854C900E30C20 /* helpers */,
+				4E85530F245854C000E30C20 /* Macro */,
+				4E85530E245854B600E30C20 /* Sections */,
+				4E85530D245854A600E30C20 /* Vendors */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4E855305245853E600E30C20 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553142458551E00E30C20 /* Fonts */,
+				4E8553132458551800E30C20 /* Images */,
+				4E8553122458551000E30C20 /* Sounds */,
+				4E8553112458550900E30C20 /* Videos */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4E8553062458540100E30C20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E8553072458540D00E30C20 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4E85530C2458543F00E30C20 /* Base */,
+				4E85530B2458542900E30C20 /* Categories */,
+				4E85530A2458542100E30C20 /* Core */,
+				4E8553092458541C00E30C20 /* Models */,
+				4E8553082458541500E30C20 /* Public */,
+				4E8553062458540100E30C20 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		4E8553082458541500E30C20 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		4E8553092458541C00E30C20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E85530A2458542100E30C20 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4E85530B2458542900E30C20 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4E85530C2458543F00E30C20 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4E85542124643EA500E30C20 /* Model */,
+				4E85541424642C3100E30C20 /* View */,
+				4E8553162459118600E30C20 /* ZZBaseViewController.h */,
+				4E8553172459118600E30C20 /* ZZBaseViewController.m */,
+				4E8554102464287100E30C20 /* ZZBaseTableViewController.h */,
+				4E8554112464287100E30C20 /* ZZBaseTableViewController.m */,
+				4E8553192459122C00E30C20 /* ZZBaseView.h */,
+				4E85531A2459122C00E30C20 /* ZZBaseView.m */,
+				4E85531C2459127000E30C20 /* ZZBaseViewModel.h */,
+				4E85531D2459127000E30C20 /* ZZBaseViewModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4E85530D245854A600E30C20 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		4E85530E245854B600E30C20 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				4E85532724591FD300E30C20 /* OLSections */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		4E85530F245854C000E30C20 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553222459172B00E30C20 /* ZZConfig.h */,
+				4E85532324591F9300E30C20 /* AppMacro.h */,
+				4E85532424591FA100E30C20 /* NotificationMacro.h */,
+				4E85532524591FB600E30C20 /* VendorMacro.h */,
+				4E85532624591FBF00E30C20 /* UtilsMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		4E855310245854C900E30C20 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		4E8553112458550900E30C20 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		4E8553122458551000E30C20 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		4E8553132458551800E30C20 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4E8553142458551E00E30C20 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4E85532724591FD300E30C20 /* OLSections */ = {
+			isa = PBXGroup;
+			children = (
+				4E8554252464F62E00E30C20 /* Account */,
+				4E8554082464266B00E30C20 /* Discover */,
+				4E8553EE2459A3B000E30C20 /* Root */,
+				4E8553DE2459A35300E30C20 /* Home */,
+				4E8553DF2459A35F00E30C20 /* Mine */,
+				4E85532824591FDF00E30C20 /* CircleList */,
+			);
+			path = OLSections;
+			sourceTree = "<group>";
+		};
+		4E85532824591FDF00E30C20 /* CircleList */ = {
+			isa = PBXGroup;
+			children = (
+				4E85532C2459200A00E30C20 /* Model */,
+				4E85532B2459200100E30C20 /* ViewModel */,
+				4E85532A24591FFB00E30C20 /* View */,
+				4E85532924591FF000E30C20 /* Controller */,
+			);
+			path = CircleList;
+			sourceTree = "<group>";
+		};
+		4E85532924591FF000E30C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E85533F2459210200E30C20 /* LSCircleListViewController.h */,
+				4E8553402459210200E30C20 /* LSCircleListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E85532A24591FFB00E30C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553302459205A00E30C20 /* LSCircleListCollectionCell.h */,
+				4E8553312459205A00E30C20 /* LSCircleListCollectionCell.m */,
+				4E8553332459207B00E30C20 /* LSCircleListHeaderView.h */,
+				4E8553342459207B00E30C20 /* LSCircleListHeaderView.m */,
+				4E8553362459209900E30C20 /* LSCircleListSectionHeadView.h */,
+				4E8553372459209900E30C20 /* LSCircleListSectionHeadView.m */,
+				4E855339245920B800E30C20 /* LSCircleTableCell.h */,
+				4E85533A245920B800E30C20 /* LSCircleTableCell.m */,
+				4E85533C245920DF00E30C20 /* LSCircleListView.h */,
+				4E85533D245920DF00E30C20 /* LSCircleListView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E85532B2459200100E30C20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553422459212900E30C20 /* LSCircleListCollectionCellVIewModel.h */,
+				4E8553432459212900E30C20 /* LSCircleListCollectionCellVIewModel.m */,
+				4E8553452459213F00E30C20 /* LSCircleListHeaderViewModel.h */,
+				4E8553462459213F00E30C20 /* LSCircleListHeaderViewModel.m */,
+				4E8553482459215B00E30C20 /* LSCircleListSectionHeadViewModel.h */,
+				4E8553492459215B00E30C20 /* LSCircleListSectionHeadViewModel.m */,
+				4E85534B2459216F00E30C20 /* LSCircleListViewModel.h */,
+				4E85534C2459216F00E30C20 /* LSCircleListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E85532C2459200A00E30C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E85532D2459202800E30C20 /* LSCircleListModel.h */,
+				4E85532E2459202800E30C20 /* LSCircleListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E8553DE2459A35300E30C20 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553E32459A37A00E30C20 /* ViewModel */,
+				4E8553E22459A37700E30C20 /* Model */,
+				4E8553E12459A36E00E30C20 /* View */,
+				4E8553E02459A36500E30C20 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4E8553DF2459A35F00E30C20 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553EA2459A3A100E30C20 /* ViewModel */,
+				4E8553E92459A39E00E30C20 /* Model */,
+				4E8553E82459A39B00E30C20 /* View */,
+				4E8553E72459A39300E30C20 /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		4E8553E02459A36500E30C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553E42459A38F00E30C20 /* ZZHomeViewController.h */,
+				4E8553E52459A38F00E30C20 /* ZZHomeViewController.m */,
+				4E8553F92459AE3400E30C20 /* ZZContentViewController.h */,
+				4E8553FA2459AE3400E30C20 /* ZZContentViewController.m */,
+				4E8553FC2459C48000E30C20 /* ZZHomeSecondViewController.h */,
+				4E8553FD2459C48000E30C20 /* ZZHomeSecondViewController.m */,
+				4E8553FF2459C7C100E30C20 /* ZZContentSecondViewController.h */,
+				4E8554002459C7C100E30C20 /* ZZContentSecondViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E8553E12459A36E00E30C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553F32459A70B00E30C20 /* ZYTeamplayerHeadView.h */,
+				4E8553F42459A70B00E30C20 /* ZYTeamplayerHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E8553E22459A37700E30C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E8553E32459A37A00E30C20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E8553E72459A39300E30C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11339EB42484AC6400D80219 /* The Adventures Of Sherlock Holmes - Adventure I.epub */,
+				4E8553EB2459A3AA00E30C20 /* ZZMineViewController.h */,
+				4E8553EC2459A3AA00E30C20 /* ZZMineViewController.m */,
+				11339EB22484ABB200D80219 /* MyViewController.swift */,
+				11339EB12484ABB100D80219 /* ZZArchitectureDemo-Bridging-Header.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E8553E82459A39B00E30C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E8553E92459A39E00E30C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E8553EA2459A3A100E30C20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E8553EE2459A3B000E30C20 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553EF2459A3B500E30C20 /* Controller */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		4E8553EF2459A3B500E30C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E8553F02459A3C500E30C20 /* ZZRootViewController.h */,
+				4E8553F12459A3C500E30C20 /* ZZRootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E8554082464266B00E30C20 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				4E85540F246426A400E30C20 /* ViewModel */,
+				4E85540E246426A100E30C20 /* Model */,
+				4E85540D2464269E00E30C20 /* View */,
+				4E8554092464268500E30C20 /* Controller */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		4E8554092464268500E30C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E85540A2464269A00E30C20 /* DisCoverViewController.h */,
+				4E85540B2464269A00E30C20 /* DisCoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E85540D2464269E00E30C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E85541B2464364400E30C20 /* DiscoverTableViewCell.h */,
+				4E85541C2464364400E30C20 /* DiscoverTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E85540E246426A100E30C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E85541E2464379500E30C20 /* DiscoverListModel.h */,
+				4E85541F2464379500E30C20 /* DiscoverListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E85540F246426A400E30C20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E8554182464304100E30C20 /* DiscoverViewModel.h */,
+				4E8554192464304100E30C20 /* DiscoverViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E85541424642C3100E30C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E85541524642C4500E30C20 /* BaseTableViewCell.h */,
+				4E85541624642C4500E30C20 /* BaseTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E85542124643EA500E30C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E85542224643EB000E30C20 /* BaseModel.h */,
+				4E85542324643EB000E30C20 /* BaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E8554252464F62E00E30C20 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				4E8554262464F63400E30C20 /* Login */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		4E8554262464F63400E30C20 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4E85542B2464F95B00E30C20 /* ViewModel */,
+				4E8554272464F63800E30C20 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4E8554272464F63800E30C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E8554282464F65800E30C20 /* ZZLoginViewController.h */,
+				4E8554292464F65800E30C20 /* ZZLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E85542B2464F95B00E30C20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E85542C2464F96800E30C20 /* LoginViewModel.h */,
+				4E85542D2464F96800E30C20 /* LoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		62998F628D8D2C455A34AFA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA48E9B3FD1BBC1D39499560 /* libPods-ZZArchitectureDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94D5205F34C8C92CAA5AD90D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8EE13783D69BA793B9755D4 /* Pods-ZZArchitectureDemo.debug.xcconfig */,
+				7D90D5D9D95AA07EFBFD0DC8 /* Pods-ZZArchitectureDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8552BA24570E2100E30C20 /* ZZArchitectureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8552EA24570E2800E30C20 /* Build configuration list for PBXNativeTarget "ZZArchitectureDemo" */;
+			buildPhases = (
+				D87BB7C4F281FCFA1DB2C62B /* [CP] Check Pods Manifest.lock */,
+				4E8552B724570E2100E30C20 /* Sources */,
+				4E8552B824570E2100E30C20 /* Frameworks */,
+				4E8552B924570E2100E30C20 /* Resources */,
+				1330C2468CBBFB84FD089597 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZArchitectureDemo;
+			productName = ZZArchitectureDemo;
+			productReference = 4E8552BB24570E2100E30C20 /* ZZArchitectureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E8552D524570E2800E30C20 /* ZZArchitectureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8552ED24570E2800E30C20 /* Build configuration list for PBXNativeTarget "ZZArchitectureDemoTests" */;
+			buildPhases = (
+				4E8552D224570E2800E30C20 /* Sources */,
+				4E8552D324570E2800E30C20 /* Frameworks */,
+				4E8552D424570E2800E30C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8552D824570E2800E30C20 /* PBXTargetDependency */,
+			);
+			name = ZZArchitectureDemoTests;
+			productName = ZZArchitectureDemoTests;
+			productReference = 4E8552D624570E2800E30C20 /* ZZArchitectureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E8552E024570E2800E30C20 /* ZZArchitectureDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8552F024570E2800E30C20 /* Build configuration list for PBXNativeTarget "ZZArchitectureDemoUITests" */;
+			buildPhases = (
+				4E8552DD24570E2800E30C20 /* Sources */,
+				4E8552DE24570E2800E30C20 /* Frameworks */,
+				4E8552DF24570E2800E30C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8552E324570E2800E30C20 /* PBXTargetDependency */,
+			);
+			name = ZZArchitectureDemoUITests;
+			productName = ZZArchitectureDemoUITests;
+			productReference = 4E8552E124570E2800E30C20 /* ZZArchitectureDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8552B324570E2000E30C20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = oldliu;
+				TargetAttributes = {
+					4E8552BA24570E2100E30C20 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1150;
+					};
+					4E8552D524570E2800E30C20 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 4E8552BA24570E2100E30C20;
+					};
+					4E8552E024570E2800E30C20 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 4E8552BA24570E2100E30C20;
+					};
+				};
+			};
+			buildConfigurationList = 4E8552B624570E2000E30C20 /* Build configuration list for PBXProject "ZZArchitectureDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E8552B224570E2000E30C20;
+			productRefGroup = 4E8552BC24570E2100E30C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8552BA24570E2100E30C20 /* ZZArchitectureDemo */,
+				4E8552D524570E2800E30C20 /* ZZArchitectureDemoTests */,
+				4E8552E024570E2800E30C20 /* ZZArchitectureDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8552B924570E2100E30C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8552CE24570E2700E30C20 /* LaunchScreen.storyboard in Resources */,
+				4E8552FB2457CB6300E30C20 /* ModulesRegister.plist in Resources */,
+				11339EB52484AC6400D80219 /* The Adventures Of Sherlock Holmes - Adventure I.epub in Resources */,
+				4E8552CB24570E2700E30C20 /* Assets.xcassets in Resources */,
+				4E8552C924570E2100E30C20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8552D424570E2800E30C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8552DF24570E2800E30C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1330C2468CBBFB84FD089597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZArchitectureDemo/Pods-ZZArchitectureDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZArchitectureDemo/Pods-ZZArchitectureDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZArchitectureDemo/Pods-ZZArchitectureDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87BB7C4F281FCFA1DB2C62B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZArchitectureDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8552B724570E2100E30C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8553ED2459A3AA00E30C20 /* ZZMineViewController.m in Sources */,
+				4E8552C624570E2100E30C20 /* ViewController.m in Sources */,
+				4E85534A2459215B00E30C20 /* LSCircleListSectionHeadViewModel.m in Sources */,
+				4E8554122464287100E30C20 /* ZZBaseTableViewController.m in Sources */,
+				4E8552F92457C82000E30C20 /* AModule.m in Sources */,
+				4E8554012459C7C100E30C20 /* ZZContentSecondViewController.m in Sources */,
+				4E8552C024570E2100E30C20 /* AppDelegate.m in Sources */,
+				4E8553412459210200E30C20 /* LSCircleListViewController.m in Sources */,
+				4E85541D2464364400E30C20 /* DiscoverTableViewCell.m in Sources */,
+				4E85531E2459127000E30C20 /* ZZBaseViewModel.m in Sources */,
+				11339EB32484ABB200D80219 /* MyViewController.swift in Sources */,
+				4E85541A2464304100E30C20 /* DiscoverViewModel.m in Sources */,
+				4E8553FB2459AE3400E30C20 /* ZZContentViewController.m in Sources */,
+				4E8553F22459A3C500E30C20 /* ZZRootViewController.m in Sources */,
+				4E8553322459205A00E30C20 /* LSCircleListCollectionCell.m in Sources */,
+				4E85541724642C4500E30C20 /* BaseTableViewCell.m in Sources */,
+				4E85533E245920DF00E30C20 /* LSCircleListView.m in Sources */,
+				4E8553FE2459C48000E30C20 /* ZZHomeSecondViewController.m in Sources */,
+				4E85540C2464269A00E30C20 /* DisCoverViewController.m in Sources */,
+				4E85542424643EB000E30C20 /* BaseModel.m in Sources */,
+				4E85542A2464F65800E30C20 /* ZZLoginViewController.m in Sources */,
+				4E8553F52459A70B00E30C20 /* ZYTeamplayerHeadView.m in Sources */,
+				4E85531B2459122C00E30C20 /* ZZBaseView.m in Sources */,
+				4E8552D124570E2700E30C20 /* main.m in Sources */,
+				4E8553012457CC2900E30C20 /* CModule.m in Sources */,
+				4E8554202464379500E30C20 /* DiscoverListModel.m in Sources */,
+				4E85532F2459202800E30C20 /* LSCircleListModel.m in Sources */,
+				4E8553E62459A38F00E30C20 /* ZZHomeViewController.m in Sources */,
+				4E8552FE2457CC2000E30C20 /* BModule.m in Sources */,
+				4E8552F524570E5700E30C20 /* ModuleManager.m in Sources */,
+				4E8553442459212900E30C20 /* LSCircleListCollectionCellVIewModel.m in Sources */,
+				4E8553352459207B00E30C20 /* LSCircleListHeaderView.m in Sources */,
+				4E85534D2459216F00E30C20 /* LSCircleListViewModel.m in Sources */,
+				4E8553472459213F00E30C20 /* LSCircleListHeaderViewModel.m in Sources */,
+				4E8554072463A55F00E30C20 /* ZZLoadConfiguration.m in Sources */,
+				4E8553182459118600E30C20 /* ZZBaseViewController.m in Sources */,
+				4E85533B245920B800E30C20 /* LSCircleTableCell.m in Sources */,
+				4E85542E2464F96800E30C20 /* LoginViewModel.m in Sources */,
+				4E8553382459209900E30C20 /* LSCircleListSectionHeadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8552D224570E2800E30C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8552DB24570E2800E30C20 /* ZZArchitectureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8552DD24570E2800E30C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8552E624570E2800E30C20 /* ZZArchitectureDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8552D824570E2800E30C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8552BA24570E2100E30C20 /* ZZArchitectureDemo */;
+			targetProxy = 4E8552D724570E2800E30C20 /* PBXContainerItemProxy */;
+		};
+		4E8552E324570E2800E30C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8552BA24570E2100E30C20 /* ZZArchitectureDemo */;
+			targetProxy = 4E8552E224570E2800E30C20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E8552C724570E2100E30C20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8552C824570E2100E30C20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E8552CC24570E2700E30C20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8552CD24570E2700E30C20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E8552E824570E2800E30C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E8552E924570E2800E30C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E8552EB24570E2800E30C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EE13783D69BA793B9755D4 /* Pods-ZZArchitectureDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZZArchitectureDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ZZArchitectureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZZArchitectureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZZArchitectureDemo/Class/Sections/OLSections/Mine/Controller/ZZArchitectureDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E8552EC24570E2800E30C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D90D5D9D95AA07EFBFD0DC8 /* Pods-ZZArchitectureDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZZArchitectureDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ZZArchitectureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZZArchitectureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZZArchitectureDemo/Class/Sections/OLSections/Mine/Controller/ZZArchitectureDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E8552EE24570E2800E30C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZArchitectureDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZZArchitectureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZArchitectureDemo.app/ZZArchitectureDemo";
+			};
+			name = Debug;
+		};
+		4E8552EF24570E2800E30C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZArchitectureDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZZArchitectureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZArchitectureDemo.app/ZZArchitectureDemo";
+			};
+			name = Release;
+		};
+		4E8552F124570E2800E30C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZArchitectureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZZArchitectureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZArchitectureDemo;
+			};
+			name = Debug;
+		};
+		4E8552F224570E2800E30C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZArchitectureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZZArchitectureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZArchitectureDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8552B624570E2000E30C20 /* Build configuration list for PBXProject "ZZArchitectureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8552E824570E2800E30C20 /* Debug */,
+				4E8552E924570E2800E30C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8552EA24570E2800E30C20 /* Build configuration list for PBXNativeTarget "ZZArchitectureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8552EB24570E2800E30C20 /* Debug */,
+				4E8552EC24570E2800E30C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8552ED24570E2800E30C20 /* Build configuration list for PBXNativeTarget "ZZArchitectureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8552EE24570E2800E30C20 /* Debug */,
+				4E8552EF24570E2800E30C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8552F024570E2800E30C20 /* Build configuration list for PBXNativeTarget "ZZArchitectureDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8552F124570E2800E30C20 /* Debug */,
+				4E8552F224570E2800E30C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8552B324570E2000E30C20 /* Project object */;
+}

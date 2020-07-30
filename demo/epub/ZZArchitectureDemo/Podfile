@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+platform :ios, '9.0'
+target 'ZZArchitectureDemo' do
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'MJExtension'
+pod 'ReactiveObjC'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'Reachability'
+pod 'DZNEmptyDataSet'
+pod 'SVProgressHUD'
+pod 'JXPagingView/Pager'
+pod 'JXCategoryView'
+pod 'FolioReaderKit'
+
+end 

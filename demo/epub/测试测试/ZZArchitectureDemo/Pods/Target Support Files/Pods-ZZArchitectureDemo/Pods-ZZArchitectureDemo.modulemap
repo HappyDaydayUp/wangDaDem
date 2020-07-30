@@ -1,0 +1,6 @@
+framework module Pods_ZZArchitectureDemo {
+  umbrella header "Pods-ZZArchitectureDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
